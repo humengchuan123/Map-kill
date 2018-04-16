@@ -1,0 +1,73 @@
+/* pages/main/main.wxss */
+swiper{
+  width: 100%;
+  height: 500rpx;
+}
+swiper image {
+  width: 100%;
+  height: 500rpx;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  background-color: #fff;
+  padding-bottom: 5px;
+  border-top: 1px slid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+.main-author-date{
+  margin-top: 10rpx;
+  margin-bottom: 20rpx; 
+  margin-left: 10rpx;
+}
+.main-author{
+ width: 60rpx;
+ height: 60rpx;
+ vertical-align: middle;
+}
+.main-date{
+  margin-left: 20rpx;
+  margin-bottom: 10px;
+  font-size: 26rpx;
+  vertical-align: middle;
+}
+.main-title{
+   font-size: 34rpx;
+   font-weight: 600;
+   color: #333;
+   margin-bottom: 10px;
+   margin-left: 10px;
+}
+.main-img{
+   margin-left: 16px;
+   width: 100%;
+   height: 340rpx;
+   margin:  auto 0;
+   margin-bottom: 15px;
+}
+.main-content{
+   color: #666;
+   font-size: 28rpx;
+   margin-bottom: 20rpx;
+   margin-left: 20rpx;
+   letter-spacing: 2rpx;
+   line-height: 40rpx;
+}
+.main-like{
+   font-size: 13px;
+   flex-direction: row;
+   line-height: 16px;
+   margin-left: 10px;
+}
+.main-like-img{
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.main-like-num{
+  vertical-align: middle;
+  margin-left:3px;
+}

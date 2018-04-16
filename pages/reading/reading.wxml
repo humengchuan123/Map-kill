@@ -1,0 +1,4 @@
+<!--pages/reading/reading.wxml-->
+<view>
+  <text>hello this is reading</text>
+</view>

@@ -1,0 +1,44 @@
+<!--pages/main/main.wxml-->
+<view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<block wx:for="{{post_key}}" wx:for-item="item">
+  <view class='main-container' catchtap='onMainTap' data-postId='{{item.postId}}'>
+    <view class='main-author-date'>
+      <image class='main-author' src='{{item.avatar}}'></image>
+      <text class='main-date'>{{item.date}}</text>
+    </view>
+    <text class='main-title'>{{item.title}}</text>
+    <image class='main-img' src='{{item.imgSrc}}'></image>
+    <text class='main-content'>{{item.content}}</text>
+    <view class='main-like'>
+       <image class='main-like-img' src='/img/icon/chat.png'></image>
+       <text class='main-like-num'>{{item.collection}}</text>
+       <image class='main-like-img' src='/img/icon/view.png'></image>
+       <text class='main-like-num'>{{item.reading}}</text>
+    </view>
+  </view>
+</block>
+
+<view class='main-container'>
+    <view class='main-author-date'>
+      <image class='main-author' src='/img/avatar/1.png'></image>
+      <text class='main-date'>Nov 25 2017</text>
+    </view>
+    <text class='main-title'>正是虾肥蟹壮时</text>
+    <image class='main-img' src='/img/post/crab.png'></image>
+    <text class='main-content'>菊黄蟹正肥，品尝秋之味。徐志摩把,“看初花的荻芦”和“到楼外楼吃蟹”,并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，</text>
+    <view class='main-like'>
+       <image class='main-like-img' src='/img/icon/chat.png'></image>
+       <text class='main-like-num'>92</text>
+       <image class='main-like-img' src='/img/icon/view.png'></image>
+       <text class='main-like-num'>65</text>
+    </view>
+</view>
+</view>

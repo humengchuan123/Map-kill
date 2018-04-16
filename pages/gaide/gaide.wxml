@@ -1,0 +1,13 @@
+<!--pages/gaide/gaide.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button> 获取头像昵称 </button>
+     <block>
+      <image class="userinfo-avatar"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> 
+  </view>
+  <view class="usermotto" bindtap="goHome">
+    <text class="user-motto">开启小程序</text>
+  </view>
+</view>

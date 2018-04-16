@@ -1,0 +1,17 @@
+<!--pages/navgation/nagation.wxml-->
+<view class='wrap'>
+    <view class='one'>
+      <text>{{one}}</text>
+      <text class="search" id="Regeo" bindtouchstart="naviToRegeo">查询</text>
+    </view>
+    <view class='two'>
+       <text>{{two}}</text>
+       <text class="search" id="weahter" bindtouchstart="naviToWeather">查询</text>
+
+    </view>
+    <view class='three'>
+       <text>{{three}}</text>
+       <text class="search" id="poi" bindtouchstart="naviToPoi">查询</text>
+    </view>
+
+</view>

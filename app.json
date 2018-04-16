@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/main/main-item/main-item",
+    "pages/welcome/welcome",
+    "pages/navgation/navgation",
+    "pages/map/maptest",
+    "pages/reading/reading",
+    "pages/regeo/regeo",
+    "pages/weather/weather",
+    "pages/poi/poi",
+    "pages/inputtips/input",
+    "pages/gaide/gaide",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "Map-kill",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "主页",
+        "iconPath": "img/tab/main.png",
+        "selectedIconPath": "img/tab/main-selcted.png"
+      },
+      {
+        "pagePath": "pages/map/maptest",
+        "text": "map",
+        "iconPath": "img/tab/map.png",
+        "selectedIconPath": "img/tab/map-selcted.png"
+      },
+      {
+        "pagePath": "pages/navgation/navgation",
+        "text": "个人",
+        "iconPath": "img/tab/tab_personal.png",
+        "selectedIconPath": "img/tab/tab_personal-selected.png"
+      }
+    ]
+  }
+}
